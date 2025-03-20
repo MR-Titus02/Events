@@ -6,13 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-
+    <label for="check">Hello</label>
+    <input type="checkbox" name="checkbox" id="check">
     <script>
-        addEventListener("keydown", function(e){
-            if (e.key === "Enter")
-            alert("You Pressed a key")
-            else {
-            }
+        const value = document.getElementById('check');
+        value.addEventListener("click" , function() {
+            console.log("checked")
         })
     </script>
 </body>
