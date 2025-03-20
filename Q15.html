@@ -6,7 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <script></script>
+    <div>
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi officiis saepe molestias hic reprehenderit optio nam sit quasi corrupti, ullam a ratione? Blanditiis, nesciunt nam perspiciatis voluptate cupiditate dolorum sequi.</p>
+    </div>
+    <script>
+        document.getElementById('para').addEventListener("dblclick", function() {
+            document.getElementById('para').style.backgroundColor = "green";
+        })
+    </script>
 </body>
 </html>

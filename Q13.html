@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="dropdown">Cars</label>
+    <select name="dropdown" id="dropdown">
+        <option value="BMW">BMW</option>
+        <option value="Rolls-Royce">Rolls-Royce</option>
+        <option value="Ferrari">Ferrari</option>
+    </select>
+    <script>
+        document.getElementById('dropdown').addEventListener("change" , function(){
+            alert("The Car is " + dropdown.value)
+        })
+    </script>
+</body>
+</html>

@@ -12,3 +12,6 @@ submitting a form
 
 4. What is the difference between onclick and addEventListener()?
 onclick allows only one event at a time while addEventListener() allows us to write multiple event hnadlers for the same event.
+
+7. How can you attach multiple event listeners to the same element?
+using addEventListner() Many times or using multiple functions at a time.

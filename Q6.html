@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="dropdown">Vehicle</label>
+    <select name="dropdown" id="dropdown">
+        <option value="Car">Car</option>
+        <option value="Bike">Bike</option>
+        <option value="Flight">Flight</option>
+    </select>
+    <p id="output"></p>
+    <script>
+        document.getElementById('dropdown').addEventListener("change" , function(){
+            document.getElementById('output').innerHTML = "The selected vehicle is " + dropdown.value;
+        })
+    </script>
+</body>
+</html>
