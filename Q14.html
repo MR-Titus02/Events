@@ -10,8 +10,12 @@
     <input type="checkbox" name="checkbox" id="check">
     <script>
         const value = document.getElementById('check');
-        value.addEventListener("click" , function() {
-            console.log("checked")
+        value.addEventListener("change", function() {
+            if (this.checked) {
+                console.log("checked")
+            } else {
+                console.log("unchecked")
+            }
         })
     </script>
 </body>
